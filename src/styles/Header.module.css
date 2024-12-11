@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profileImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.profileInfo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profileInfo h2 {
+  font-size: 16px;
+  color: #777;
+}
+
+.title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subtitle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.socialLinks {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #5b5959;
+  border-radius: 5px;
+}
+
+.resumeLink {
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.resumeLink:hover {
+  background-color: #4b4949;
+}
+
+a {
+  color: white;
+  font-size: 26px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
