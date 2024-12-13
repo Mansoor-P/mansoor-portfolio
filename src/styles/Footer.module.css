@@ -1,0 +1,26 @@
+.footer {
+  background-color: #3333336b;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  padding: 10px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerText {
+  font-size: 14px;
+}
+
+.name {
+  font-weight: bold;
+  color: #924bf6; 
+}
+

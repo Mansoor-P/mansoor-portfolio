@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom"; // Use NavLink
+import { NavLink } from "react-router-dom"; 
 import Links from "./Links";
 import styles from "../styles/Header.module.css";
 import mansoorPic from "../assets/mansoor-pic.jpg";
@@ -7,7 +7,7 @@ import mansoorPic from "../assets/mansoor-pic.jpg";
 const Header = () => {
   const navLinks = [
     { to: "/", label: "Home" },
-    { to: "/experience", label: "Experience" },
+    { to: "/experience", label: "Experience / Hackathons" },
     { to: "/projects", label: "Projects" },
   ];
 
@@ -41,7 +41,7 @@ const Header = () => {
               key={index}
               to={link.to}
               className={styles.navLink}
-              activeClassName={styles.activeNavLink} // Add activeClassName
+              activeClassName={styles.activeNavLink}
             >
               {link.label}
             </NavLink>
@@ -49,7 +49,7 @@ const Header = () => {
         </div>
         <div className={styles.resumeLinkContainer}>
           <a
-            href="resume.pdf"
+            href="https://drive.google.com/file/d/1i-pBBeMFUqZ9IoVfN2CgMKWLAXrUEH9G/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resumeLink}
